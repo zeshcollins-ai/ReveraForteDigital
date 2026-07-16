@@ -66,7 +66,7 @@ export default function FooterLinks() {
             >
               {/* Icon container */}
               <div className="relative mr-3 w-8 h-8 flex items-center justify-center">
-                <div className={`absolute inset-0 rounded-md bg-gray-800/80 transform transition-all duration-300 ${hoveredIndex === index ? 'scale-110 opacity-100' : 'scale-100 opacity-70'}`}></div>
+                <div className={`absolute inset-0 rounded-md bg-gray-800/80 traninfoorm transition-all duration-300 ${hoveredIndex === index ? 'scale-110 opacity-100' : 'scale-100 opacity-70'}`}></div>
                 <link.icon className={`h-4 w-4 transition-all duration-300 ${hoveredIndex === index ? 'text-white scale-110' : 'text-gray-400'}`} />
               </div>
               

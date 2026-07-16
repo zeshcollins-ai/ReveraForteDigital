@@ -201,8 +201,8 @@ export default function FooterContact() {
         <ContactItem 
           index={0}
           icon={Mail} 
-          text="info@reveraforte.com" 
-          href="mailto:info@reveraforte.com"
+          text="info@reveraforteservices.com" 
+          href="mailto:info@reveraforteservices.com"
           label="Email Us"
           isActive={activeItem === 0}
           onHover={() => setActiveItem(0)}

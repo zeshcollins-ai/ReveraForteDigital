@@ -10,8 +10,8 @@ export const sendEmail = (form: HTMLFormElement) => {
     )
     .then(
       (result) => {
-        console.log('Email successfully sent!', result.text);
-        alert('Message sent successfully!');
+        console.log('Email succesinfoully sent!', result.text);
+        alert('Message sent succesinfoully!');
         form.reset();
       },
       (error) => {

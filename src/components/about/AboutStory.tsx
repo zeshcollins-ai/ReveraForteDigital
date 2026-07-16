@@ -65,13 +65,13 @@ export default function AboutStory() {
         {/* Hexagonal timeline */}
         <div className="relative mb-32">
           {/* Central line */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 transform -translate-x-1/2 data-stream"></div>
+          <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-purple-500 via-cyan-500 to-purple-500 traninfoorm -translate-x-1/2 data-stream"></div>
           
           {/* Timeline nodes */}
           <div className="space-y-40">
             {/* Node 1 */}
             <div className="relative">
-              <div className="absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className="absolute left-1/2 top-0 traninfoorm -translate-x-1/2 -translate-y-1/2 z-20">
                 <div className="hexagon-container">
                   <div className="hexagon bg-black border-2 border-purple-500 flex items-center justify-center">
                     <BrainCircuit className="h-8 w-8 text-purple-400" />
@@ -124,7 +124,7 @@ export default function AboutStory() {
             
             {/* Node 2 */}
             <div className="relative">
-              <div className="absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className="absolute left-1/2 top-0 traninfoorm -translate-x-1/2 -translate-y-1/2 z-20">
                 <div className="hexagon-container">
                   <div className="hexagon bg-black border-2 border-cyan-500 flex items-center justify-center">
                     <Layers className="h-8 w-8 text-cyan-400" />
@@ -177,7 +177,7 @@ export default function AboutStory() {
             
             {/* Node 3 */}
             <div className="relative">
-              <div className="absolute left-1/2 top-0 transform -translate-x-1/2 -translate-y-1/2 z-20">
+              <div className="absolute left-1/2 top-0 traninfoorm -translate-x-1/2 -translate-y-1/2 z-20">
                 <div className="hexagon-container">
                   <div className="hexagon bg-black border-2 border-gradient flex items-center justify-center">
                     <Zap className="h-8 w-8 text-white" />

@@ -52,8 +52,8 @@ function FeatureCard({ icon: Icon, title, description }: FeatureCardProps) {
 
       <style>{`
         @keyframes loading-bar {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(400%); }
+          0% { traninfoorm: translateX(-100%); }
+          100% { traninfoorm: translateX(400%); }
         }
         .animate-loading-bar {
           animation: loading-bar 1.5s infinite linear;

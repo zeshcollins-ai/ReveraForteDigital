@@ -89,7 +89,7 @@ export default function Contact() {
               
               <div className="contact-hero-description">
                 <p className="text-lg text-gray-300 mb-6">
-                  Ready to transform your digital presence? Our team of experts is standing by to help you navigate the future of marketing.
+                  Ready to traninfoorm your digital presence? Our team of experts is standing by to help you navigate the future of marketing.
                 </p>
                 
                 <div className="contact-hero-stats">
@@ -103,7 +103,7 @@ export default function Contact() {
                   </div>
                   <div className="contact-stat">
                     <div className="contact-stat-value">100%</div>
-                    <div className="contact-stat-label">SATISFACTION</div>
+                    <div className="contact-stat-label">SATIinfoACTION</div>
                   </div>
                 </div>
               </div>
@@ -159,9 +159,9 @@ export default function Contact() {
               </div>
               <h3 className="contact-method-title">Email Us</h3>
               <p className="contact-method-value">
-                {activeTab === 'general' && 'info@reveraforte.com'}
-                {activeTab === 'support' && 'support@reveraforte.com'}
-                {activeTab === 'sales' && 'sales@reveraforte.com'}
+                {activeTab === 'general' && 'info@reveraforteservices.com'}
+                {activeTab === 'support' && 'support@reveraforteservices.com'}
+                {activeTab === 'sales' && 'sales@reveraforteservices.com'}
               </p>
               <p className="contact-method-description">
                 {activeTab === 'general' && 'For general inquiries and information'}
@@ -183,7 +183,7 @@ export default function Contact() {
               </div>
               <h3 className="contact-method-title">Call Us</h3>
               <p className="contact-method-value">
-                {activeTab === 'general' && '+1 (555) 123-4567'}
+                {activeTab === 'general' && '+1 (361) 203-9170'}
                 {activeTab === 'support' && '+1 (555) 987-6543'}
                 {activeTab === 'sales' && '+1 (555) 456-7890'}
               </p>
@@ -224,7 +224,7 @@ export default function Contact() {
               </div>
             </div>
             
-            <div className="contact-method-card">
+            {/* <div className="contact-method-card">
               <div className="contact-method-icon">
                 <MapPin className="h-6 w-6 text-white" />
                 <div className="contact-method-icon-pulse"></div>
@@ -246,7 +246,7 @@ export default function Contact() {
                 <div className="contact-method-corner bottom-left"></div>
                 <div className="contact-method-corner bottom-right"></div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
@@ -449,33 +449,19 @@ export default function Contact() {
                   United States
                 </p>
                 <div className="global-office-contact">
-                  <div className="global-office-phone">+1 (555) 123-4567</div>
-                  <div className="global-office-email">sf@reveraforte.com</div>
+                  <div className="global-office-phone">+1 (361) 203-9170</div>
+                  <div className="global-office-email">info@reveraforteservices.com</div>
                 </div>
               </div>
               
-              <div className="global-office">
-                <div className="global-office-header">
-                  <h3 className="global-office-name">Asia-Pacific</h3>
-                  <div className="global-office-status">REGIONAL OFFICE</div>
-                </div>
-                <p className="global-office-address">
-                  13, Dodda Basti, Block 4<br />
-                  Bengaluru, Karnataka 560056<br />
-                  India
-                </p>
-                <div className="global-office-contact">
-                  <div className="global-office-phone">+1 (555) 234-5678</div>
-                  <div className="global-office-email">ny@reveraforte.com</div>
-                </div>
-              </div>
+              
             </div>
           </div>
         </div>
       </section>
       
       {/* Social media section */}
-      <section className="py-16 relative">
+      {/* <section className="py-16 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="social-media-container">
             <div className="social-media-header">
@@ -491,7 +477,7 @@ export default function Contact() {
                 </div>
                 <div className="social-media-content">
                   <h3 className="social-media-name">LinkedIn</h3>
-                  <p className="social-media-handle">@reveraforte</p>
+                  <p className="social-media-handle">@reveraforteservices</p>
                 </div>
                 <div className="social-media-arrow">
                   <ChevronRight className="h-5 w-5" />
@@ -504,7 +490,7 @@ export default function Contact() {
                 </div>
                 <div className="social-media-content">
                   <h3 className="social-media-name">Twitter</h3>
-                  <p className="social-media-handle">@reveraforte</p>
+                  <p className="social-media-handle">@reveraforteservices</p>
                 </div>
                 <div className="social-media-arrow">
                   <ChevronRight className="h-5 w-5" />
@@ -517,7 +503,7 @@ export default function Contact() {
                 </div>
                 <div className="social-media-content">
                   <h3 className="social-media-name">Instagram</h3>
-                  <p className="social-media-handle">@reveraforte</p>
+                  <p className="social-media-handle">@reveraforteservices</p>
                 </div>
                 <div className="social-media-arrow">
                   <ChevronRight className="h-5 w-5" />
@@ -530,7 +516,7 @@ export default function Contact() {
                 </div>
                 <div className="social-media-content">
                   <h3 className="social-media-name">Facebook</h3>
-                  <p className="social-media-handle">@reveraforte</p>
+                  <p className="social-media-handle">@reveraforteservices</p>
                 </div>
                 <div className="social-media-arrow">
                   <ChevronRight className="h-5 w-5" />
@@ -539,7 +525,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   </>
 );

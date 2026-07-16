@@ -106,7 +106,7 @@ function SocialLink({
       </div>
       
       {/* Bottom border animation */}
-      <div className="absolute -inset-x-2 bottom-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent opacity-0 group-hover:opacity-100 transform translate-y-1 group-hover:translate-y-0 transition-all duration-300"></div>
+      <div className="absolute -inset-x-2 bottom-0 h-[1px] bg-gradient-to-r from-transparent via-white/50 to-transparent opacity-0 group-hover:opacity-100 traninfoorm translate-y-1 group-hover:translate-y-0 transition-all duration-300"></div>
       
       {/* Icon with glow effect */}
       <div className="relative">
@@ -121,9 +121,9 @@ function SocialLink({
 const style = document.createElement('style');
 style.textContent = `
   @keyframes ping-slow {
-    0% { transform: scale(1); opacity: 0.8; }
-    50% { transform: scale(1.5); opacity: 0.4; }
-    100% { transform: scale(1); opacity: 0.8; }
+    0% { traninfoorm: scale(1); opacity: 0.8; }
+    50% { traninfoorm: scale(1.5); opacity: 0.4; }
+    100% { traninfoorm: scale(1); opacity: 0.8; }
   }
   
   @keyframes pulse-slow {

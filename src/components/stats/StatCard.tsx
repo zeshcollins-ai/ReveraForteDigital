@@ -36,15 +36,15 @@ export default function StatCard({ icon: Icon, value, label, isVisible, classNam
   return (
     <div className={`group relative h-full ${className}`}>
       {/* 3D Card Effect */}
-      <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-2xl transform group-hover:scale-105 transition-transform duration-300 blur-xl" />
+      <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-cyan-500/20 rounded-2xl traninfoorm group-hover:scale-105 transition-traninfoorm duration-300 blur-xl" />
 
       {/* Card Content */}
-      <div className="relative p-6 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 transform transition-all duration-300 group-hover:translate-y-[-4px] group-hover:shadow-xl h-full flex flex-col justify-between">
-        <Icon className="h-8 w-8 text-purple-500 mb-2 transform transition-transform duration-300 group-hover:scale-110" />
-        <div className="text-3xl font-bold text-white mb-1 transform transition-all duration-300 group-hover:translate-y-[-2px]">
+      <div className="relative p-6 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 traninfoorm transition-all duration-300 group-hover:translate-y-[-4px] group-hover:shadow-xl h-full flex flex-col justify-between">
+        <Icon className="h-8 w-8 text-purple-500 mb-2 traninfoorm transition-traninfoorm duration-300 group-hover:scale-110" />
+        <div className="text-3xl font-bold text-white mb-1 traninfoorm transition-all duration-300 group-hover:translate-y-[-2px]">
           {animatedValue.toFixed(0)}{value.includes('+') && '+'}
         </div>
-        <div className="text-gray-400 transform transition-all duration-300 group-hover:translate-y-[-2px]">{label}</div>
+        <div className="text-gray-400 traninfoorm transition-all duration-300 group-hover:translate-y-[-2px]">{label}</div>
       </div>
     </div>
   );

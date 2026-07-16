@@ -6,7 +6,7 @@ import { ArrowRight, ChevronDown, BarChart3, Globe, Zap, Users, TrendingUp, Laye
 const caseStudies = [
   {
     id: 1,
-    title: "NexGen Technologies Digital Transformation",
+    title: "NexGen Technologies Digital Traninfoormation",
     category: "Technology",
     description: "How we helped a leading tech company revamp their entire digital ecosystem, resulting in a 200% increase in user engagement and 45% boost in conversion rates.",
     results: ["200% increase in user engagement", "45% boost in conversion rates", "30% reduction in bounce rate"],
@@ -19,8 +19,8 @@ const caseStudies = [
     id: 2,
     title: "FinEdge Banking Platform Optimization",
     category: "Finance",
-    description: "Transforming a traditional banking platform into a cutting-edge financial ecosystem with advanced security features and intuitive user experience.",
-    results: ["87% improvement in user satisfaction", "60% faster transaction processing", "35% increase in mobile banking adoption"],
+    description: "Traninfoorming a traditional banking platform into a cutting-edge financial ecosystem with advanced security features and intuitive user experience.",
+    results: ["87% improvement in user satiinfoaction", "60% faster transaction processing", "35% increase in mobile banking adoption"],
     image: "/case-studies/finedge-banking.jpg",
     icon: <BarChart3 className="w-6 h-6 text-indigo-400" />,
     color: "from-indigo-500/20 to-purple-600/20",
@@ -50,10 +50,10 @@ const caseStudies = [
   },
   {
     id: 5,
-    title: "RetailPro E-commerce Transformation",
+    title: "RetailPro E-commerce Traninfoormation",
     category: "Retail",
     description: "Revamping an outdated e-commerce platform into a state-of-the-art shopping experience with AI-powered recommendations and seamless omnichannel integration.",
-    results: ["180% increase in online sales", "65% improvement in customer retention", "4.8/5 average user satisfaction rating"],
+    results: ["180% increase in online sales", "65% improvement in customer retention", "4.8/5 average user satiinfoaction rating"],
     image: "/case-studies/retailpro-ecommerce.jpg",
     icon: <TrendingUp className="w-6 h-6 text-orange-400" />,
     color: "from-orange-500/20 to-red-600/20",
@@ -155,7 +155,7 @@ export default function CaseStudiesList() {
                 >
                   {expandedCase === caseStudy.id ? "Show less" : "Show more"}
                   <ChevronDown 
-                    className={`w-4 h-4 transition-transform ${expandedCase === caseStudy.id ? "rotate-180" : ""}`} 
+                    className={`w-4 h-4 transition-traninfoorm ${expandedCase === caseStudy.id ? "rotate-180" : ""}`} 
                   />
                 </button>
                 

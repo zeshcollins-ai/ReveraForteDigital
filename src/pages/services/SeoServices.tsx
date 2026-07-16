@@ -15,7 +15,7 @@ export default function SeoServices() {
           <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-cyan-500/5 rounded-full filter blur-[100px] animate-pulse-slow-delay" />
           
           {/* Subtle radial gradient overlay */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
+          <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
           
           {/* Futuristic grid pattern */}
           <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] bg-[size:50px_50px] opacity-[0.02]" />
@@ -83,7 +83,7 @@ export default function SeoServices() {
                 
                 <Link to="/contact" className="group inline-flex items-center justify-center px-6 py-3 border border-purple-500/20 rounded-full text-purple-300 hover:text-white transition-colors duration-300 hover:border-purple-500/40">
                   <span>View Case Studies</span>
-                  <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-500 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-4 w-4 traninfoorm transition-traninfoorm duration-500 group-hover:translate-x-1" />
                 </Link>
               </div>
             </div>
@@ -452,7 +452,7 @@ export default function SeoServices() {
               SEO Success Stories
             </h2>
             <p className="text-gray-400 max-w-2xl mx-auto">
-              See how our SEO strategies have transformed businesses and driven measurable results.
+              See how our SEO strategies have traninfoormed businesses and driven measurable results.
             </p>
           </div>
 
@@ -463,7 +463,7 @@ export default function SeoServices() {
                 <img 
                   src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800" 
                   alt="E-commerce SEO Case Study" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  className="w-full h-full object-cover transition-traninfoorm duration-500 hover:scale-110"
                 />
               </div>
               <div className="p-6">
@@ -490,7 +490,7 @@ export default function SeoServices() {
                 <img 
                   src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&q=80&w=800" 
                   alt="SaaS SEO Case Study" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  className="w-full h-full object-cover transition-traninfoorm duration-500 hover:scale-110"
                 />
               </div>
               <div className="p-6">
@@ -517,7 +517,7 @@ export default function SeoServices() {
                 <img 
                   src="https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&q=80&w=800" 
                   alt="Real Estate SEO Case Study" 
-                  className="w-full h-full object-cover transition-transform duration-500 hover:scale-110"
+                  className="w-full h-full object-cover transition-traninfoorm duration-500 hover:scale-110"
                 />
               </div>
               <div className="p-6">
@@ -544,7 +544,7 @@ export default function SeoServices() {
       {/* CTA Section */}
       <section className="py-20 relative">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-gray-900/0 to-transparent opacity-80" />
+          <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-gray-900/0 to-transparent opacity-80" />
         </div>
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -561,7 +561,7 @@ export default function SeoServices() {
                 
                 <Link to="/contact" className="group inline-flex items-center justify-center px-6 py-3 border border-purple-500/20 rounded-full text-purple-300 hover:text-white transition-colors duration-300 hover:border-purple-500/40">
                   <span>Contact Us</span>
-                  <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-500 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-4 w-4 traninfoorm transition-traninfoorm duration-500 group-hover:translate-x-1" />
                 </Link>
               </div>
             </div>
@@ -580,16 +580,16 @@ export default function SeoServices() {
           50% { opacity: 0.7; }
         }
         @keyframes shimmer {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
+          0% { traninfoorm: translateX(-100%); }
+          100% { traninfoorm: translateX(100%); }
         }
         @keyframes shimmer-delay {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
+          0% { traninfoorm: translateX(-100%); }
+          100% { traninfoorm: translateX(100%); }
         }
         @keyframes ping-slow {
-          0% { transform: scale(1); opacity: 1; }
-          75%, 100% { transform: scale(1.5); opacity: 0; }
+          0% { traninfoorm: scale(1); opacity: 1; }
+          75%, 100% { traninfoorm: scale(1.5); opacity: 0; }
         }
         .animate-pulse-slow {
           animation: pulse-slow 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;

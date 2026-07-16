@@ -28,7 +28,7 @@ export default function HomeHero() {
             position: 'absolute',
             top: '50%',
             left: '50%',
-            transform: 'translate(-50%, -50%)',
+            traninfoorm: 'translate(-50%, -50%)',
             zIndex: 0,
             opacity: 0.8,
             filter: 'blur(0.5px)'
@@ -47,7 +47,7 @@ export default function HomeHero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         {/* Main heading with gradient text */}
         <h1 className="text-5xl sm:text-7xl font-bold mb-6">
-          Transform Your <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">Digital Future</span>
+          Traninfoorm Your <span className="bg-gradient-to-r from-purple-500 to-cyan-500 bg-clip-text text-transparent">Digital Future</span>
         </h1>
         
         {/* Subtitle with gradient text */}
@@ -57,7 +57,7 @@ export default function HomeHero() {
         
         {/* Description text */}
         <p className="max-w-3xl mx-auto text-xl text-gray-300 leading-relaxed mb-12">
-          At Revera Forte, we're architects of transformation, crafting digital experiences that transcend expectations and drive measurable results in an AI-powered world.
+          At Revera Forte, we're architects of traninfoormation, crafting digital experiences that transcend expectations and drive measurable results in an AI-powered world.
         </p>
         
         {/* Call to action buttons */}
@@ -70,7 +70,7 @@ export default function HomeHero() {
         </div>
         
         {/* Decorative elements - similar to About page styling */}
-        <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 w-full max-w-md">
+        <div className="absolute bottom-10 left-1/2 traninfoorm -translate-x-1/2 w-full max-w-md">
           <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-purple-500/30 to-transparent"></div>
         </div>
       </div>

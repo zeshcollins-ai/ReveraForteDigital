@@ -21,7 +21,7 @@
 
 @keyframes particle-float {
   0% {
-    transform: translateY(0) translateX(0);
+    traninfoorm: translateY(0) translateX(0);
     opacity: 0;
   }
   10% {
@@ -31,7 +31,7 @@
     opacity: 1;
   }
   100% {
-    transform: translateY(-100px) translateX(100px);
+    traninfoorm: translateY(-100px) translateX(100px);
     opacity: 0;
   }
 }
@@ -199,7 +199,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  traninfoorm: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   border: 1px solid rgba(139, 92, 246, 0.3);
@@ -217,33 +217,33 @@
 
 @keyframes hologram-float {
   0%, 100% {
-    transform: translateY(0);
+    traninfoorm: translateY(0);
     filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.7));
   }
   50% {
-    transform: translateY(-20px);
+    traninfoorm: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.9));
   }
 }
 
 @keyframes hologram-float-cyan {
   0%, 100% {
-    transform: translateY(0);
+    traninfoorm: translateY(0);
     filter: drop-shadow(0 0 5px rgba(34, 211, 238, 0.7));
   }
   50% {
-    transform: translateY(-20px);
+    traninfoorm: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(34, 211, 238, 0.9));
   }
 }
 
 @keyframes hologram-float-gradient {
   0%, 100% {
-    transform: translateY(0);
+    traninfoorm: translateY(0);
     filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.7));
   }
   50% {
-    transform: translateY(-20px);
+    traninfoorm: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(34, 211, 238, 0.9));
   }
 }
@@ -298,11 +298,11 @@
 
 @keyframes hexagon-pulse {
   0%, 100% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     opacity: 0.3;
   }
   50% {
-    transform: scale(1.2);
+    traninfoorm: scale(1.2);
     opacity: 0.6;
   }
 }
@@ -337,7 +337,7 @@
   border-radius: 50%;
   background: rgba(139, 92, 246, 0.7);
   top: 50%;
-  transform: translateY(-50%);
+  traninfoorm: translateY(-50%);
   animation: circuit-pulse 4s infinite;
 }
 
@@ -354,11 +354,11 @@
 
 @keyframes circuit-pulse {
   0%, 100% {
-    transform: translateY(-50%) scale(1);
+    traninfoorm: translateY(-50%) scale(1);
     box-shadow: 0 0 0 rgba(139, 92, 246, 0.7);
   }
   50% {
-    transform: translateY(-50%) scale(1.5);
+    traninfoorm: translateY(-50%) scale(1.5);
     box-shadow: 0 0 10px rgba(139, 92, 246, 0.9);
   }
 }
@@ -373,14 +373,14 @@
   position: relative;
   height: 100%;
   perspective: 1000px;
-  transition: transform 0.3s ease;
+  transition: traninfoorm 0.3s ease;
   /* Add top margin to accommodate the tech badge */
   margin-top: 20px;
   padding-top: 10px;
 }
 
 .feature-card-container:hover {
-  transform: translateY(-5px);
+  traninfoorm: translateY(-5px);
 }
 
 .feature-card-glow {
@@ -473,10 +473,10 @@
 
 @keyframes dark-matter-shimmer {
   0% {
-    transform: translateX(-50%) translateY(-50%) rotate(0deg);
+    traninfoorm: translateX(-50%) translateY(-50%) rotate(0deg);
   }
   100% {
-    transform: translateX(-50%) translateY(-50%) rotate(360deg);
+    traninfoorm: translateX(-50%) translateY(-50%) rotate(360deg);
   }
 }
 
@@ -494,7 +494,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+  traninfoorm: translateX(-50%) translateY(-50%);
   z-index: 10;
 }
 
@@ -555,11 +555,11 @@
 
 @keyframes feature-icon-pulse {
   0%, 100% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     opacity: 0.3;
   }
   50% {
-    transform: scale(1.2);
+    traninfoorm: scale(1.2);
     opacity: 0.6;
   }
 }
@@ -727,14 +727,14 @@
   width: 70%;
   height: 70%;
   border-color: rgba(34, 211, 238, 0.4);
-  transform: rotate(60deg);
+  traninfoorm: rotate(60deg);
 }
 
 .quantum-orbit:nth-child(3) {
   width: 120%;
   height: 120%;
   border-color: rgba(255, 255, 255, 0.2);
-  transform: rotate(30deg);
+  traninfoorm: rotate(30deg);
 }
 
 .quantum-particle {
@@ -745,7 +745,7 @@
   border-radius: 50%;
   top: 0;
   left: 50%;
-  transform: translateX(-50%);
+  traninfoorm: translateX(-50%);
   box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
   animation: particle-orbit 3s linear infinite;
 }
@@ -764,30 +764,30 @@
 
 @keyframes nucleus-pulse {
   0%, 100% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     box-shadow: 0 0 10px rgba(139, 92, 246, 0.8), 0 0 20px rgba(34, 211, 238, 0.4);
   }
   50% {
-    transform: scale(1.2);
+    traninfoorm: scale(1.2);
     box-shadow: 0 0 15px rgba(139, 92, 246, 1), 0 0 30px rgba(34, 211, 238, 0.6);
   }
 }
 
 @keyframes orbit-rotate {
   0% {
-    transform: rotate(0deg);
+    traninfoorm: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    traninfoorm: rotate(360deg);
   }
 }
 
 @keyframes particle-orbit {
   0% {
-    transform: rotate(0deg) translateX(20px) rotate(0deg);
+    traninfoorm: rotate(0deg) translateX(20px) rotate(0deg);
   }
   100% {
-    transform: rotate(360deg) translateX(20px) rotate(-360deg);
+    traninfoorm: rotate(360deg) translateX(20px) rotate(-360deg);
   }
 }
 
@@ -803,11 +803,11 @@
 /* Scanning line animation for buttons */
 @keyframes scan-line {
   0% {
-    transform: translateY(0);
+    traninfoorm: translateY(0);
     opacity: 0.8;
   }
   100% {
-    transform: translateY(100px);
+    traninfoorm: translateY(100px);
     opacity: 0;
   }
 }

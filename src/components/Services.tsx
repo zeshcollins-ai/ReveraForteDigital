@@ -11,7 +11,7 @@ export default function Services() {
         <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-cyan-500/5 rounded-full filter blur-[100px] animate-pulse-slow-delay" />
         
         {/* Subtle radial gradient overlay with reduced opacity */}
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
+        <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
         
         {/* Futuristic grid pattern with reduced opacity */}
         <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] bg-[size:50px_50px] opacity-[0.02]" />
@@ -63,7 +63,7 @@ export default function Services() {
             {/* Button text with icon */}
             <span className="relative z-10 flex items-center text-white font-medium text-lg">
               View All Services
-              <svg className="ml-3 w-5 h-5 transform transition-transform duration-500 group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <svg className="ml-3 w-5 h-5 traninfoorm transition-traninfoorm duration-500 group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
               </svg>
             </span>
@@ -82,16 +82,16 @@ export default function Services() {
           50% { opacity: 0.7; }
         }
         @keyframes shimmer {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
+          0% { traninfoorm: translateX(-100%); }
+          100% { traninfoorm: translateX(100%); }
         }
         @keyframes shimmer-delay {
-          0% { transform: translateX(-100%); }
-          100% { transform: translateX(100%); }
+          0% { traninfoorm: translateX(-100%); }
+          100% { traninfoorm: translateX(100%); }
         }
         @keyframes ping-slow {
-          0% { transform: scale(1); opacity: 1; }
-          75%, 100% { transform: scale(1.5); opacity: 0; }
+          0% { traninfoorm: scale(1); opacity: 1; }
+          75%, 100% { traninfoorm: scale(1.5); opacity: 0; }
         }
         .animate-pulse-slow {
           animation: pulse-slow 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;

@@ -24,19 +24,19 @@
 
 @keyframes float-particle {
   0% {
-    transform: translateY(0) translateX(0);
+    traninfoorm: translateY(0) translateX(0);
   }
   25% {
-    transform: translateY(-30px) translateX(30px);
+    traninfoorm: translateY(-30px) translateX(30px);
   }
   50% {
-    transform: translateY(-60px) translateX(0);
+    traninfoorm: translateY(-60px) translateX(0);
   }
   75% {
-    transform: translateY(-30px) translateX(-30px);
+    traninfoorm: translateY(-30px) translateX(-30px);
   }
   100% {
-    transform: translateY(0) translateX(0);
+    traninfoorm: translateY(0) translateX(0);
   }
 }
 
@@ -138,10 +138,10 @@
 
 @keyframes globe-rotate {
   0% {
-    transform: rotate(0deg);
+    traninfoorm: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    traninfoorm: rotate(360deg);
   }
 }
 
@@ -160,10 +160,10 @@
 
 @keyframes globe-overlay-rotate {
   0% {
-    transform: rotate(0deg);
+    traninfoorm: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    traninfoorm: rotate(360deg);
   }
 }
 
@@ -196,11 +196,11 @@
 
 @keyframes ping-pulse {
   0% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     opacity: 1;
   }
   100% {
-    transform: scale(3);
+    traninfoorm: scale(3);
     opacity: 0;
   }
 }
@@ -280,7 +280,7 @@
 }
 
 .contact-method-card:hover {
-  transform: translateY(-5px);
+  traninfoorm: translateY(-5px);
   border-color: rgba(99, 102, 241, 0.5);
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
 }
@@ -310,11 +310,11 @@
 
 @keyframes method-icon-pulse {
   0%, 100% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     opacity: 0.3;
   }
   50% {
-    transform: scale(1.2);
+    traninfoorm: scale(1.2);
     opacity: 0.1;
   }
 }
@@ -434,11 +434,11 @@
 
 @keyframes form-icon-pulse {
   0%, 100% {
-    transform: scale(1);
+    traninfoorm: scale(1);
     opacity: 0.3;
   }
   50% {
-    transform: scale(1.3);
+    traninfoorm: scale(1.3);
     opacity: 0.1;
   }
 }
@@ -552,7 +552,7 @@
   position: absolute;
   top: 50%;
   right: 1rem;
-  transform: translateY(-50%);
+  traninfoorm: translateY(-50%);
   color: rgba(255, 255, 255, 0.5);
   pointer-events: none;
   transition: all 0.3s ease;
@@ -560,7 +560,7 @@
 
 .contact-select:focus ~ .contact-select-arrow {
   color: rgba(99, 102, 241, 0.8);
-  transform: translateY(-50%) rotate(90deg);
+  traninfoorm: translateY(-50%) rotate(90deg);
 }
 
 .contact-form-submit {
@@ -587,7 +587,7 @@
 }
 
 .contact-submit-button:hover:not(:disabled) {
-  transform: translateY(-2px);
+  traninfoorm: translateY(-2px);
   box-shadow: 0 5px 15px rgba(99, 102, 241, 0.3);
 }
 
@@ -681,7 +681,7 @@
 }
 
 .global-office:hover {
-  transform: translateY(-5px);
+  traninfoorm: translateY(-5px);
   border-color: rgba(99, 102, 241, 0.5);
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
 }
@@ -789,7 +789,7 @@
 }
 
 .social-media-card:hover {
-  transform: translateY(-3px);
+  traninfoorm: translateY(-3px);
   border-color: rgba(99, 102, 241, 0.5);
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
 }
@@ -826,7 +826,7 @@
 }
 
 .social-media-card:hover .social-media-icon {
-  transform: scale(1.1);
+  traninfoorm: scale(1.1);
 }
 
 .social-media-content {
@@ -852,6 +852,6 @@
 }
 
 .social-media-card:hover .social-media-arrow {
-  transform: translateX(3px);
+  traninfoorm: translateX(3px);
   color: rgba(99, 102, 241, 0.8);
 }

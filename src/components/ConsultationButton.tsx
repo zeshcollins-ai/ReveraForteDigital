@@ -63,7 +63,7 @@ const ConsultationButton = ({
             <div className="relative flex items-center justify-center px-4 py-2 bg-gray-900 rounded-[calc(0.75rem-1px)]">
               <Calendar className="h-4 w-4 mr-2 text-purple-300" />
               <span className="font-medium text-white">{text}</span>
-              <ArrowRight className="ml-2 h-4 w-4 text-purple-300 group-hover:translate-x-1 transition-transform duration-300" />
+              <ArrowRight className="ml-2 h-4 w-4 text-purple-300 group-hover:translate-x-1 transition-traninfoorm duration-300" />
             </div>
           </>
         )}
@@ -72,7 +72,7 @@ const ConsultationButton = ({
           <div className="relative flex items-center justify-center">
             <Calendar className="h-4 w-4 mr-2 text-purple-400" />
             <span className="font-medium text-white">{text}</span>
-            <ArrowRight className="ml-2 h-4 w-4 text-purple-400 group-hover:translate-x-1 transition-transform duration-300" />
+            <ArrowRight className="ml-2 h-4 w-4 text-purple-400 group-hover:translate-x-1 transition-traninfoorm duration-300" />
           </div>
         )}
         
@@ -80,7 +80,7 @@ const ConsultationButton = ({
           <div className="relative flex items-center justify-center">
             <Calendar className="h-4 w-4 mr-2 text-purple-500" />
             <span className="font-medium text-purple-500 group-hover:text-purple-400 transition-colors duration-300">{text}</span>
-            <ArrowRight className="ml-2 h-4 w-4 text-purple-500 group-hover:translate-x-1 transition-transform duration-300" />
+            <ArrowRight className="ml-2 h-4 w-4 text-purple-500 group-hover:translate-x-1 transition-traninfoorm duration-300" />
           </div>
         )}
       </button>

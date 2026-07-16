@@ -147,7 +147,7 @@ const CloudDevOpsModal = ({ isOpen, onClose }: ModalProps) => {
                     {/* Card background animation */}
                     <div className={`absolute inset-0 transition-opacity duration-500 ${hoveredCard === index ? 'opacity-100' : 'opacity-0'}`}>
                       <div className="absolute inset-0 bg-gradient-to-br from-purple-500/5 to-cyan-500/5" />
-                      <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full filter blur-lg transform translate-x-12 -translate-y-12" />
+                      <div className="absolute top-0 right-0 w-32 h-32 bg-purple-500/10 rounded-full filter blur-lg traninfoorm translate-x-12 -translate-y-12" />
                     </div>
 
                     <div 
@@ -202,7 +202,7 @@ const CloudDevOpsModal = ({ isOpen, onClose }: ModalProps) => {
                   <div className="absolute inset-0 bg-gradient-to-r from-purple-600 to-cyan-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                   <div className="relative flex items-center justify-center px-8 py-4 bg-gray-900 rounded-[11px]">
                     <span className="font-medium text-white mr-3">Schedule Infrastructure Consultation</span>
-                    <ArrowRight className="h-5 w-5 text-purple-300 group-hover:translate-x-1 transition-transform duration-300" />
+                    <ArrowRight className="h-5 w-5 text-purple-300 group-hover:translate-x-1 transition-traninfoorm duration-300" />
                   </div>
                 </button>
               </div>

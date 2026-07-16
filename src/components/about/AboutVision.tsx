@@ -22,7 +22,7 @@ export default function AboutVision() {
     },
     {
       title: "Client Success First",
-      description: "Your growth is our ultimate metric of success. We measure our achievements through the transformative results we deliver for our partners.",
+      description: "Your growth is our ultimate metric of success. We measure our achievements through the traninfoormative results we deliver for our partners.",
       icon: Users,
       color: "from-pink-500 to-purple-600"
     },
@@ -82,7 +82,7 @@ export default function AboutVision() {
             <div className="vision-content">
               <div className="vision-statement-container">
                 <p className="vision-statement">
-                  To pioneer a new era of digital marketing where AI amplifies human creativity, creating transformative experiences that propel businesses into the future.
+                  To pioneer a new era of digital marketing where AI amplifies human creativity, creating traninfoormative experiences that propel businesses into the future.
                 </p>
                 
                 <div className="vision-statement-decoration">

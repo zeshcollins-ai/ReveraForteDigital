@@ -21,7 +21,7 @@ export default function AboutExpertise() {
       description: "Quantum-level brand positioning that creates resonant connections with target demographics."
     },
     {
-      name: "Digital Transformation",
+      name: "Digital Traninfoormation",
       percentage: 92,
       color: "from-pink-500 to-purple-600",
       icon: Server,

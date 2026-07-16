@@ -157,23 +157,23 @@ export default function Footer() {
       {/* Content with staggered entrance animations */}
       <div className="relative z-10 w-[98%] mx-auto px-1 sm:px-2">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 md:gap-5 lg:gap-6 mb-16">
-          <div className={`transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-100`}>
+          <div className={`traninfoorm ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-100`}>
             <FooterLogo />
           </div>
-          <div className={`transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-200`}>
+          <div className={`traninfoorm ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-200`}>
             <FooterLinks />
           </div>
-          <div className={`transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-300`}>
+          <div className={`traninfoorm ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-300`}>
             <FooterContact />
           </div>
-          <div className={`transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-400`}>
+          <div className={`traninfoorm ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-400`}>
             <FooterNavigation />
           </div>
-          <div className={`transform lg:col-span-1 md:col-span-2 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-500`}>
+          <div className={`traninfoorm lg:col-span-1 md:col-span-2 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-500`}>
             <InfiniteTerminal />
           </div>
         </div>
-        <div className={`transform ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-600`}>
+        <div className={`traninfoorm ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'} transition-all duration-700 delay-600`}>
           <FooterBottom />
         </div>
       </div>
@@ -191,25 +191,25 @@ export default function Footer() {
       {/* Add global animation keyframes */}
       <style jsx>{`
         @keyframes gradient-shift {
-          0% { transform: translateX(-50%); }
-          100% { transform: translateX(50%); }
+          0% { traninfoorm: translateX(-50%); }
+          100% { traninfoorm: translateX(50%); }
         }
         
         @keyframes float {
-          0%, 100% { transform: translateY(0) translateX(0); }
-          25% { transform: translateY(-10px) translateX(5px); }
-          50% { transform: translateY(-5px) translateX(10px); }
-          75% { transform: translateY(5px) translateX(-5px); }
+          0%, 100% { traninfoorm: translateY(0) translateX(0); }
+          25% { traninfoorm: translateY(-10px) translateX(5px); }
+          50% { traninfoorm: translateY(-5px) translateX(10px); }
+          75% { traninfoorm: translateY(5px) translateX(-5px); }
         }
         
         @keyframes scan-line {
-          0% { transform: translateY(-100vh); }
-          100% { transform: translateY(100vh); }
+          0% { traninfoorm: translateY(-100vh); }
+          100% { traninfoorm: translateY(100vh); }
         }
         
         @keyframes scan-fast {
-          0% { transform: translateY(-180px); }
-          100% { transform: translateY(180px); }
+          0% { traninfoorm: translateY(-180px); }
+          100% { traninfoorm: translateY(180px); }
         }
         
         @keyframes blink {

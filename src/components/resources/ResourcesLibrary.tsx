@@ -35,7 +35,7 @@ export default function ResourcesLibrary() {
                     onChange={(e) => setSearchQuery(e.target.value)}
                     className="w-full sm:w-64 px-4 py-2 pl-10 bg-gray-800/70 border border-gray-700 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-white"
                   />
-                  <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                  <Search className="absolute left-3 top-1/2 traninfoorm -translate-y-1/2 h-4 w-4 text-gray-400" />
                 </div>
                 
                 <button 
@@ -44,7 +44,7 @@ export default function ResourcesLibrary() {
                 >
                   <Filter className="h-4 w-4 mr-2" />
                   Filters
-                  <ChevronDown className={`h-4 w-4 ml-2 transition-transform duration-300 ${showFilters ? 'rotate-180' : ''}`} />
+                  <ChevronDown className={`h-4 w-4 ml-2 transition-traninfoorm duration-300 ${showFilters ? 'rotate-180' : ''}`} />
                 </button>
               </div>
             </div>
@@ -196,8 +196,8 @@ const resources: Resource[] = [
     downloadable: true
   },
   {
-    title: "Financial Institution Security Transformation",
-    description: "Case study of a major financial institution's security transformation journey and outcomes.",
+    title: "Financial Institution Security Traninfoormation",
+    description: "Case study of a major financial institution's security traninfoormation journey and outcomes.",
     type: "case-study",
     category: "Financial Security",
     date: "Apr 18, 2023",

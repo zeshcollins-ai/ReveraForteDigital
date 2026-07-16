@@ -110,7 +110,7 @@ export default function ServicesGrid() {
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="transform transition-all duration-500 hover:z-10"
+              className="traninfoorm transition-all duration-500 hover:z-10"
               style={{ 
                 animationDelay: `${index * 150}ms`,
                 animation: 'fadeInUp 0.8s cubic-bezier(0.22, 1, 0.36, 1) forwards'
@@ -126,11 +126,11 @@ export default function ServicesGrid() {
           @keyframes fadeInUp {
             from {
               opacity: 0;
-              transform: translateY(30px);
+              traninfoorm: translateY(30px);
             }
             to {
               opacity: 1;
-              transform: translateY(0);
+              traninfoorm: translateY(0);
             }
           }
           

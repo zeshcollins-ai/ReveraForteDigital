@@ -180,8 +180,8 @@ export default function InfiniteTerminal() {
       {/* Add animation keyframes */}
       <style jsx>{`
         @keyframes scan-fast {
-          0% { transform: translateY(-180px); }
-          100% { transform: translateY(180px); }
+          0% { traninfoorm: translateY(-180px); }
+          100% { traninfoorm: translateY(180px); }
         }
         
         @keyframes blink {

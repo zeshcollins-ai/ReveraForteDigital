@@ -20,7 +20,7 @@ body {
 }
 
 .group-hover\:rotate-y-180:hover {
-  transform: rotateY(180deg);
+  traninfoorm: rotateY(180deg);
 }
 
 
@@ -40,10 +40,10 @@ html {
 
 @keyframes spin {
   0% {
-    transform: rotate(0deg);
+    traninfoorm: rotate(0deg);
   }
   100% {
-    transform: rotate(360deg);
+    traninfoorm: rotate(360deg);
   }
 }
 
