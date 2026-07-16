@@ -147,8 +147,8 @@ export default function Navbar() {
       )
       .then(
         (result) => {
-          console.log('Email succesinfoully sent!', result.text);
-          alert('Message sent succesinfoully!');
+          console.log('Email successfully sent!', result.text);
+          alert('Message sent successfully!');
           setFormData({
             user_name: '',
             user_email: '',
@@ -202,7 +202,7 @@ export default function Navbar() {
                             >
                               {Icon && <Icon className="h-4 w-4 mr-1 text-cyan-400" />}
                               {link.label}
-                              <ChevronDown className="ml-1 h-3 w-3 transition-traninfoorm duration-300 group-hover:rotate-180" />
+                              <ChevronDown className="ml-1 h-3 w-3 transition-transform duration-300 group-hover:rotate-180" />
                             </button>
                             
                             {isServicesOpen && (
@@ -286,7 +286,7 @@ export default function Navbar() {
                                 {Icon && <Icon className="h-5 w-5 mr-2 text-cyan-400" />}
                                 {link.label}
                               </button>
-                              <ChevronDown className={`h-5 w-5 transition-traninfoorm duration-300 ${isServicesOpen ? 'rotate-180' : ''}`} />
+                              <ChevronDown className={`h-5 w-5 transition-transform duration-300 ${isServicesOpen ? 'rotate-180' : ''}`} />
                             </div>
                           </div>
                           

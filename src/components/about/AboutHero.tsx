@@ -11,7 +11,7 @@ export default function AboutHero() {
           Where Innovation Meets Impact
         </p>
         <p className="max-w-3xl mx-auto text-xl text-gray-300 leading-relaxed">
-          At Revera Forte, we're not just another digital agency. We're architects of traninfoormation, crafting digital experiences that transcend expectations and drive measurable results in an AI-powered world.
+          At Revera Forte, we're not just another digital agency. We're architects of transformation, crafting digital experiences that transcend expectations and drive measurable results in an AI-powered world.
         </p>
       </div>
     </section>

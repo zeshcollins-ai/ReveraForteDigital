@@ -14,7 +14,7 @@ export default function CaseStudiesHero() {
           Our Success Stories
         </h1>
         <p className="text-lg md:text-xl text-gray-300 max-w-3xl mx-auto mb-10">
-          Explore how we've helped businesses traninfoorm their digital presence and achieve remarkable results through innovative strategies and cutting-edge technologies.
+          Explore how we've helped businesses transform their digital presence and achieve remarkable results through innovative strategies and cutting-edge technologies.
         </p>
         
         <div className="flex flex-wrap justify-center gap-4">
@@ -52,7 +52,7 @@ export default function CaseStudiesHero() {
           </div>
           <div className="bg-gradient-to-br from-purple-500/20 to-blue-600/20 backdrop-blur-sm p-4 rounded-xl border border-purple-500/30">
             <h3 className="text-3xl font-bold text-purple-400 mb-1">95%</h3>
-            <p className="text-gray-300">Client Satiinfoaction</p>
+            <p className="text-gray-300">Client Satisfaction</p>
           </div>
         </div>
       </motion.div>

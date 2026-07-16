@@ -17,7 +17,7 @@ export default function CaseStudiesContact() {
             </h2>
             
             <p className="text-gray-300 mb-8">
-              Join the ranks of our succesinfoul clients who have traninfoormed their businesses with our innovative solutions. Let's discuss how we can help you achieve your goals.
+              Join the ranks of our successful clients who have transformed their businesses with our innovative solutions. Let's discuss how we can help you achieve your goals.
             </p>
             
             <ul className="space-y-4 mb-8">

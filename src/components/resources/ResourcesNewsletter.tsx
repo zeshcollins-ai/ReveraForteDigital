@@ -131,7 +131,7 @@ export default function ResourcesNewsletter() {
                   <div className="inline-flex items-center justify-center w-12 h-12 rounded-full bg-green-600/20 border border-green-500/30 mb-4">
                     <Check className="h-6 w-6 text-green-400" />
                   </div>
-                  <h3 className="text-xl font-semibold mb-2 text-white">Succesinfoully Subscribed!</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-white">Successfully Subscribed!</h3>
                   <p className="text-gray-300">
                     Thank you for subscribing to our cybersecurity newsletter. You'll start receiving updates soon.
                   </p>

@@ -19,7 +19,7 @@ export default function Home() {
         
         {/* Add a subtle divider between sections */}
         <div className="relative">
-          <div className="absolute left-1/2 traninfoorm -translate-x-1/2 w-full max-w-md">
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-md">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-purple-500/30 to-transparent"></div>
           </div>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
         
         {/* Another subtle divider */}
         <div className="relative">
-          <div className="absolute left-1/2 traninfoorm -translate-x-1/2 w-full max-w-md">
+          <div className="absolute left-1/2 transform -translate-x-1/2 w-full max-w-md">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-cyan-500/30 to-transparent"></div>
           </div>
         </div>
@@ -46,21 +46,21 @@ export default function Home() {
       <style jsx global>{`
         @keyframes float {
           0%, 100% {
-            traninfoorm: translateY(0);
+            transform: translateY(0);
           }
           50% {
-            traninfoorm: translateY(-20px);
+            transform: translateY(-20px);
           }
         }
         
         @keyframes pulse-glow {
           0%, 100% {
             opacity: 0.5;
-            traninfoorm: scale(1);
+            transform: scale(1);
           }
           50% {
             opacity: 0.8;
-            traninfoorm: scale(1.05);
+            transform: scale(1.05);
           }
         }
       `}</style>

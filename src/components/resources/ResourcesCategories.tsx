@@ -158,7 +158,7 @@ function FeaturedResource({ title, type, date, readTime, imageUrl, categories, i
       <div className="relative h-48 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent opacity-70 z-10"></div>
         <div 
-          className="absolute inset-0 bg-cover bg-center transition-traninfoorm duration-500 group-hover:scale-110"
+          className="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110"
           style={{ 
             backgroundImage: `url(${imageUrl})`,
             // Fallback gradient if image doesn't load

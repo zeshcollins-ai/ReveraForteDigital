@@ -89,7 +89,7 @@ export default function Contact() {
               
               <div className="contact-hero-description">
                 <p className="text-lg text-gray-300 mb-6">
-                  Ready to traninfoorm your digital presence? Our team of experts is standing by to help you navigate the future of marketing.
+                  Ready to transform your digital presence? Our team of experts is standing by to help you navigate the future of marketing.
                 </p>
                 
                 <div className="contact-hero-stats">
@@ -103,7 +103,7 @@ export default function Contact() {
                   </div>
                   <div className="contact-stat">
                     <div className="contact-stat-value">100%</div>
-                    <div className="contact-stat-label">SATIinfoACTION</div>
+                    <div className="contact-stat-label">SATISFACTION</div>
                   </div>
                 </div>
               </div>

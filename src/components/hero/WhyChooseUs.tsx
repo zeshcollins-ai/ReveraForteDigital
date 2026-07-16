@@ -12,7 +12,7 @@ interface FeatureCardProps {
 function FeatureCard({ icon: Icon, title, description, exampleStat }: FeatureCardProps) {
   return (
     <div
-      className="p-6 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 hover:border-purple-500/50 transition-colors traninfoorm hover:scale-[1.02] hover:shadow-xl"
+      className="p-6 rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 hover:border-purple-500/50 transition-colors transform hover:scale-[1.02] hover:shadow-xl"
       style={{
         backgroundColor: 'transparent',
         width: '100%',
@@ -27,8 +27,8 @@ function FeatureCard({ icon: Icon, title, description, exampleStat }: FeatureCar
           width: '100%',
           height: '100%',
           textAlign: 'center',
-          transition: 'traninfoorm 0.8s',
-          traninfoormStyle: 'preserve-3d',
+          transition: 'transform 0.8s',
+          transformStyle: 'preserve-3d',
         }}
       >
         {/* Front Side */}
@@ -61,7 +61,7 @@ function FeatureCard({ icon: Icon, title, description, exampleStat }: FeatureCar
             backfaceVisibility: 'hidden',
             backgroundColor: 'dodgerblue',
             color: 'white',
-            traninfoorm: 'rotateY(180deg)',
+            transform: 'rotateY(180deg)',
           }}
         >
           <h3 className="text-xl font-semibold text-white mb-2">More About {title}</h3>
@@ -110,7 +110,7 @@ export default function WhyChooseUs() {
       title: 'Transparent and Collaborative Process',
       description:
         'We believe in transparency. From regular progress updates to detailed reporting, you’ll always know where your investment is going.',
-      exampleStat: '100% client satiinfoaction with our communication and reporting.',
+      exampleStat: '100% client satisfaction with our communication and reporting.',
     },
     {
       icon: Layers,
@@ -158,7 +158,7 @@ export default function WhyChooseUs() {
           href="/contact"
           className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium text-lg bg-gradient-to-r from-purple-500 to-cyan-500 text-white hover:opacity-90 transition-all"
         >
-          Ready to Traninfoorm Your Business? Let’s Talk!
+          Ready to Transform Your Business? Let’s Talk!
           <ArrowRight className="ml-2 h-5 w-5" />
         </a>
       </div>

@@ -76,7 +76,7 @@ export default function FooterBottom() {
                 </div>
                 
                 {/* Bottom indicator dot */}
-                <div className="absolute -bottom-1 left-1/2 traninfoorm -translate-x-1/2 w-1 h-1 rounded-full bg-blue-500/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+                <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-1 h-1 rounded-full bg-blue-500/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
               </div>
               
               {/* Text label */}
@@ -138,9 +138,9 @@ export default function FooterBottom() {
       {/* Animation keyframes */}
       <style jsx>{`
         @keyframes ping-slow {
-          0% { traninfoorm: scale(1); opacity: 0.2; }
-          50% { traninfoorm: scale(1.2); opacity: 0.3; }
-          100% { traninfoorm: scale(1); opacity: 0.2; }
+          0% { transform: scale(1); opacity: 0.2; }
+          50% { transform: scale(1.2); opacity: 0.3; }
+          100% { transform: scale(1); opacity: 0.2; }
         }
         
         .animate-ping-slow {

@@ -18,7 +18,7 @@ export default function ServiceSection({ icon: Icon, title, items }: ServiceSect
         {items.map((item, index) => (
           <li 
             key={index}
-            className="text-gray-400 flex items-center gap-2 group-hover:translate-x-1 transition-traninfoorm duration-300"
+            className="text-gray-400 flex items-center gap-2 group-hover:translate-x-1 transition-transform duration-300"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-purple-500 group-hover:bg-cyan-400 transition-colors duration-300" />
             {item}

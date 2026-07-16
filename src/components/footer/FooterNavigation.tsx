@@ -97,7 +97,7 @@ export default function FooterNavigation() {
               
               {/* Active indicator */}
               <div 
-                className={`absolute left-0 top-0 bottom-0 w-[2px] bg-gray-400 traninfoorm scale-y-0 origin-top transition-traninfoorm duration-300 ${activeLink === index ? 'scale-y-100' : ''}`}
+                className={`absolute left-0 top-0 bottom-0 w-[2px] bg-gray-400 transform scale-y-0 origin-top transition-transform duration-300 ${activeLink === index ? 'scale-y-100' : ''}`}
               ></div>
             </li>
           ))}
@@ -150,14 +150,14 @@ export default function FooterNavigation() {
           {/* Success message */}
           <div 
             className={`absolute inset-0 flex items-center justify-center bg-gray-800/80 backdrop-blur-sm rounded-lg border border-green-800/30 transition-all duration-500 ${
-              isSubmitted ? 'opacity-100 traninfoorm scale-100' : 'opacity-0 traninfoorm scale-95 pointer-events-none'
+              isSubmitted ? 'opacity-100 transform scale-100' : 'opacity-0 transform scale-95 pointer-events-none'
             }`}
           >
             <div className="flex items-center text-green-400">
               <svg className="w-4 h-4 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>
               </svg>
-              <span className="text-sm">Subscription succesinfoul</span>
+              <span className="text-sm">Subscription successful</span>
             </div>
           </div>
         </form>
@@ -187,7 +187,7 @@ function NavLinkContent({
     <>
       {/* Icon */}
       <div className="relative mr-3 w-6 h-6 flex items-center justify-center">
-        <div className={`absolute inset-0 rounded-md bg-gray-700 traninfoorm transition-all duration-300 ${isActive ? 'opacity-100' : 'opacity-70'}`}></div>
+        <div className={`absolute inset-0 rounded-md bg-gray-700 transform transition-all duration-300 ${isActive ? 'opacity-100' : 'opacity-70'}`}></div>
         <Icon className={`h-3.5 w-3.5 transition-all duration-300 ${isActive ? 'text-white' : 'text-gray-400'}`} />
       </div>
       

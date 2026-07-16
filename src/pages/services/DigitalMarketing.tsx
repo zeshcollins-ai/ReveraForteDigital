@@ -15,7 +15,7 @@ export default function DigitalMarketing() {
           <div className="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-cyan-500/5 rounded-full filter blur-[100px] animate-pulse-slow-delay" />
           
           {/* Subtle radial gradient overlay */}
-          <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-gray-900/0 via-gray-900/20 to-transparent opacity-60" />
           
           {/* Futuristic grid pattern */}
           <div className="absolute inset-0 bg-[url('/grid-pattern.svg')] bg-[size:50px_50px] opacity-[0.02]" />
@@ -83,7 +83,7 @@ export default function DigitalMarketing() {
                 
                 <Link to="/contact" className="group inline-flex items-center justify-center px-6 py-3 border border-purple-500/20 rounded-full text-purple-300 hover:text-white transition-colors duration-300 hover:border-purple-500/40">
                   <span>View Case Studies</span>
-                  <ArrowRight className="ml-2 h-4 w-4 traninfoorm transition-traninfoorm duration-500 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-500 group-hover:translate-x-1" />
                 </Link>
               </div>
             </div>
@@ -408,7 +408,7 @@ export default function DigitalMarketing() {
                 </div>
               </div>
               <p className="text-gray-300 italic">
-                "Revera Forte traninfoormed our digital presence. Their strategic approach to SEO and content marketing increased our organic traffic by 230% in just six months."
+                "Revera Forte transformed our digital presence. Their strategic approach to SEO and content marketing increased our organic traffic by 230% in just six months."
               </p>
               <div className="mt-4 flex items-center">
                 <div className="flex">
@@ -481,14 +481,14 @@ export default function DigitalMarketing() {
       {/* CTA Section */}
       <section className="py-20 relative">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-gray-900/0 to-transparent opacity-80" />
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-full h-full bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-purple-900/20 via-gray-900/0 to-transparent opacity-80" />
         </div>
 
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl p-8 md:p-12 border border-gray-700/50 shadow-[0_0_25px_rgba(139,92,246,0.15)]">
             <div className="text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6 bg-clip-text text-transparent bg-gradient-to-r from-white via-purple-100 to-cyan-100">
-                Ready to Traninfoorm Your Digital Marketing?
+                Ready to Transform Your Digital Marketing?
               </h2>
               <p className="text-gray-300 mb-8 max-w-2xl mx-auto">
                 Let's discuss how our digital marketing services can help you achieve your business goals. Schedule a free consultation with our experts today.
@@ -498,7 +498,7 @@ export default function DigitalMarketing() {
                 
                 <Link to="/contact" className="group inline-flex items-center justify-center px-6 py-3 border border-purple-500/20 rounded-full text-purple-300 hover:text-white transition-colors duration-300 hover:border-purple-500/40">
                   <span>Contact Us</span>
-                  <ArrowRight className="ml-2 h-4 w-4 traninfoorm transition-traninfoorm duration-500 group-hover:translate-x-1" />
+                  <ArrowRight className="ml-2 h-4 w-4 transform transition-transform duration-500 group-hover:translate-x-1" />
                 </Link>
               </div>
             </div>
@@ -517,16 +517,16 @@ export default function DigitalMarketing() {
           50% { opacity: 0.7; }
         }
         @keyframes shimmer {
-          0% { traninfoorm: translateX(-100%); }
-          100% { traninfoorm: translateX(100%); }
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(100%); }
         }
         @keyframes shimmer-delay {
-          0% { traninfoorm: translateX(-100%); }
-          100% { traninfoorm: translateX(100%); }
+          0% { transform: translateX(-100%); }
+          100% { transform: translateX(100%); }
         }
         @keyframes ping-slow {
-          0% { traninfoorm: scale(1); opacity: 1; }
-          75%, 100% { traninfoorm: scale(1.5); opacity: 0; }
+          0% { transform: scale(1); opacity: 1; }
+          75%, 100% { transform: scale(1.5); opacity: 0; }
         }
         .animate-pulse-slow {
           animation: pulse-slow 6s cubic-bezier(0.4, 0, 0.6, 1) infinite;

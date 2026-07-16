@@ -28,7 +28,7 @@ export default function Logo() {
           }
           
           .logo-container:hover .logo-icon {
-            traninfoorm: rotate(15deg) scale(1.1);
+            transform: rotate(15deg) scale(1.1);
             filter: drop-shadow(0 0 12px rgba(138, 43, 226, 0.7));
           }
         `}

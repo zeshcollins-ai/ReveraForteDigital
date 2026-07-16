@@ -72,7 +72,7 @@
 .neon-link {
   position: relative;
   color: rgba(255, 255, 255, 0.8);
-  text-traninfoorm: uppercase;
+  text-transform: uppercase;
   letter-spacing: 1px;
   font-weight: 500;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
@@ -86,9 +86,9 @@
   width: 100%;
   height: 2px;
   background: linear-gradient(90deg, #8a2be2, #00ffff);
-  traninfoorm: scaleX(0);
-  traninfoorm-origin: right;
-  transition: traninfoorm 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 0;
 }
 
@@ -98,8 +98,8 @@
 }
 
 .neon-link:hover::before {
-  traninfoorm: scaleX(1);
-  traninfoorm-origin: left;
+  transform: scaleX(1);
+  transform-origin: left;
   opacity: 1;
 }
 
@@ -109,7 +109,7 @@
 }
 
 .neon-link.active::before {
-  traninfoorm: scaleX(1);
+  transform: scaleX(1);
   opacity: 1;
 }
 
@@ -122,7 +122,7 @@
     0 10px 30px rgba(0, 0, 0, 0.7),
     0 0 15px rgba(138, 43, 226, 0.3),
     0 0 10px rgba(0, 255, 255, 0.2);
-  traninfoorm-origin: top center;
+  transform-origin: top center;
   animation: dropdown-appear 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
   z-index: 100;
 }
@@ -130,11 +130,11 @@
 @keyframes dropdown-appear {
   from {
     opacity: 0;
-    traninfoorm: translateY(-10px) scaleY(0.9);
+    transform: translateY(-10px) scaleY(0.9);
   }
   to {
     opacity: 1;
-    traninfoorm: translateY(0) scaleY(1);
+    transform: translateY(0) scaleY(1);
   }
 }
 
@@ -161,11 +161,11 @@
 @keyframes menu-slide-down {
   from {
     opacity: 0;
-    traninfoorm: translateY(-20px);
+    transform: translateY(-20px);
   }
   to {
     opacity: 1;
-    traninfoorm: translateY(0);
+    transform: translateY(0);
   }
 }
 
@@ -204,7 +204,7 @@
   font-family: sans-serif;
   font-weight: 500;
   letter-spacing: 1px;
-  text-traninfoorm: uppercase;
+  text-transform: uppercase;
   color: white;
   background: rgba(0, 0, 0, 0.6);
   border: none;
@@ -235,7 +235,7 @@
 }
 
 .cyber-button:hover {
-  traninfoorm: translateY(-3px) scale(1.02);
+  transform: translateY(-3px) scale(1.02);
 }
 
 .cyber-button-primary:hover {
@@ -262,7 +262,7 @@
   background: rgba(255, 255, 255, 0.7);
   top: 0;
   left: -40px;
-  traninfoorm: skewX(-30deg);
+  transform: skewX(-30deg);
   animation: button-glow 3s infinite;
   filter: blur(5px);
   z-index: 0;
@@ -287,7 +287,7 @@
 }
 
 .cyber-button:hover .cyber-icon {
-  traninfoorm: translateX(3px) rotate(15deg);
+  transform: translateX(3px) rotate(15deg);
   filter: drop-shadow(0 0 5px rgba(0, 255, 255, 0.7));
 }
 
@@ -365,14 +365,14 @@
 
 @keyframes float-up {
   0% {
-    traninfoorm: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
     opacity: 0;
   }
   30% {
     opacity: 0.8;
   }
   100% {
-    traninfoorm: translateY(-30px) translateX(10px);
+    transform: translateY(-30px) translateX(10px);
     opacity: 0;
   }
 }
@@ -554,11 +554,11 @@
 @keyframes modal-appear {
   from {
     opacity: 0;
-    traninfoorm: scale(0.95);
+    transform: scale(0.95);
   }
   to {
     opacity: 1;
-    traninfoorm: scale(1);
+    transform: scale(1);
   }
 }
 

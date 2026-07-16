@@ -94,7 +94,7 @@ const CampaignLaunchpad = () => {
 
       const result = await response.json();
       if (response.ok) {
-        alert('Campaign launched succesinfoully!');
+        alert('Campaign launched successfully!');
       } else {
         alert(result.message || 'Error launching campaign.');
       }

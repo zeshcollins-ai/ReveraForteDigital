@@ -309,7 +309,7 @@ export default function TrustSection() {
 
   const testimonials = [
     {
-      quote: "Revera Forte traninfoormed our digital presence with AI-driven strategies that increased our conversion rate by 187% in just 3 months.",
+      quote: "Revera Forte transformed our digital presence with AI-driven strategies that increased our conversion rate by 187% in just 3 months.",
       author: "Sarah Johnson",
       position: "CMO, TechVision Inc.",
       rating: 5
@@ -431,13 +431,13 @@ export default function TrustSection() {
     const x = (mousePosition.x * 2 - 1) * depth * 20;
     const y = (mousePosition.y * 2 - 1) * depth * 20;
     return {
-      traninfoorm: `translate(${x}px, ${y}px)`,
-      transition: 'traninfoorm 0.2s cubic-bezier(0.33, 1, 0.68, 1)'
+      transform: `translate(${x}px, ${y}px)`,
+      transition: 'transform 0.2s cubic-bezier(0.33, 1, 0.68, 1)'
     };
   };
 
   return (
-    <section className="py-20 md:py-32 relative overflow-hidden will-change-traninfoorm" ref={containerRef}>
+    <section className="py-20 md:py-32 relative overflow-hidden will-change-transform" ref={containerRef}>
       {/* Animated background elements */}
       <div className="absolute inset-0 bg-[#030014]" />
       <div className="absolute inset-0 bg-grid-pattern opacity-5" />
@@ -554,8 +554,8 @@ export default function TrustSection() {
                   style={{ 
                     animationDelay: `${index * 150}ms`,
                     opacity: isInView ? 1 : 0,
-                    traninfoorm: isInView ? 'scale(1)' : 'scale(0.8)',
-                    transition: `opacity 0.8s ease-out ${index * 150}ms, traninfoorm 0.8s ease-out ${index * 150}ms`
+                    transform: isInView ? 'scale(1)' : 'scale(0.8)',
+                    transition: `opacity 0.8s ease-out ${index * 150}ms, transform 0.8s ease-out ${index * 150}ms`
                   }}
                 >
                   <div className="feature-card-glow" style={{ 
@@ -834,7 +834,7 @@ export default function TrustSection() {
               
               <div className="px-8 py-12 rounded-xl bg-gradient-to-b from-slate-900/40 to-black/80 backdrop-blur-lg relative z-10 border border-white/5">
                 {/* Elegant badge */}
-                <div className="absolute -top-5 left-1/2 traninfoorm -translate-x-1/2">
+                <div className="absolute -top-5 left-1/2 transform -translate-x-1/2">
                   <div className="px-4 py-1 rounded-full bg-gradient-to-r from-slate-700 to-slate-800 border border-slate-600/50 shadow-lg">
                     <span className="text-xs font-medium text-slate-300">
                       STRATEGIC CONSULTATION
@@ -845,7 +845,7 @@ export default function TrustSection() {
                 {/* Elegant title */}
                 <div className="mb-6">
                   <h3 className="text-2xl sm:text-3xl font-bold text-white mb-1">
-                    Ready to Traninfoorm Your Business?
+                    Ready to Transform Your Business?
                   </h3>
                   <div className="h-[1px] w-24 mx-auto bg-gradient-to-r from-transparent via-slate-400 to-transparent"></div>
                 </div>
@@ -866,7 +866,7 @@ export default function TrustSection() {
                     {/* Button content */}
                     <span className="relative z-10 flex items-center justify-center">
                       Schedule Strategic Consultation
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-traninfoorm duration-300 ease-out" />
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300 ease-out" />
                     </span>
                   </button>
                   
@@ -875,7 +875,7 @@ export default function TrustSection() {
                     {/* Button content */}
                     <span className="relative z-10 flex items-center justify-center">
                       View Case Studies
-                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-traninfoorm duration-300 ease-out" />
+                      <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform duration-300 ease-out" />
                     </span>
                   </button>
                 </div>
@@ -925,54 +925,54 @@ export default function TrustSection() {
         }
         
         @keyframes float-slow {
-          0%, 100% { traninfoorm: translate(0, 0) rotate(0deg); }
-          25% { traninfoorm: translate(-10px, 15px) rotate(5deg); }
-          50% { traninfoorm: translate(10px, 5px) rotate(0deg); }
-          75% { traninfoorm: translate(15px, -10px) rotate(-5deg); }
+          0%, 100% { transform: translate(0, 0) rotate(0deg); }
+          25% { transform: translate(-10px, 15px) rotate(5deg); }
+          50% { transform: translate(10px, 5px) rotate(0deg); }
+          75% { transform: translate(15px, -10px) rotate(-5deg); }
         }
         
         @keyframes float-slow-delayed {
-          0%, 100% { traninfoorm: translate(0, 0) rotate(0deg); }
-          25% { traninfoorm: translate(15px, -10px) rotate(-5deg); }
-          50% { traninfoorm: translate(-5px, -15px) rotate(0deg); }
-          75% { traninfoorm: translate(-15px, 10px) rotate(5deg); }
+          0%, 100% { transform: translate(0, 0) rotate(0deg); }
+          25% { transform: translate(15px, -10px) rotate(-5deg); }
+          50% { transform: translate(-5px, -15px) rotate(0deg); }
+          75% { transform: translate(-15px, 10px) rotate(5deg); }
         }
         
         @keyframes float-slow-alt {
-          0%, 100% { traninfoorm: translate(0, 0) rotate(45deg); }
-          25% { traninfoorm: translate(10px, -15px) rotate(40deg); }
-          50% { traninfoorm: translate(-10px, -5px) rotate(45deg); }
-          75% { traninfoorm: translate(-15px, 10px) rotate(50deg); }
+          0%, 100% { transform: translate(0, 0) rotate(45deg); }
+          25% { transform: translate(10px, -15px) rotate(40deg); }
+          50% { transform: translate(-10px, -5px) rotate(45deg); }
+          75% { transform: translate(-15px, 10px) rotate(50deg); }
         }
         
         .animate-float-slow {
           animation: float-slow 20s ease-in-out infinite;
-          will-change: traninfoorm;
+          will-change: transform;
         }
         
         .animate-float-slow-delayed {
           animation: float-slow-delayed 25s ease-in-out infinite;
-          will-change: traninfoorm;
+          will-change: transform;
         }
         
         .animate-float-slow-alt {
           animation: float-slow-alt 30s ease-in-out infinite;
-          will-change: traninfoorm;
+          will-change: transform;
         }
         
         @keyframes pulse-slow {
-          0%, 100% { opacity: 0.3; traninfoorm: scale(1); }
-          50% { opacity: 0.5; traninfoorm: scale(1.1); }
+          0%, 100% { opacity: 0.3; transform: scale(1); }
+          50% { opacity: 0.5; transform: scale(1.1); }
         }
         
         .animate-pulse-slow {
           animation: pulse-slow 15s cubic-bezier(0.4, 0, 0.2, 1) infinite;
-          will-change: opacity, traninfoorm;
+          will-change: opacity, transform;
         }
         
         .animate-pulse-slow-delayed {
           animation: pulse-slow 15s cubic-bezier(0.4, 0, 0.2, 1) 7.5s infinite;
-          will-change: opacity, traninfoorm;
+          will-change: opacity, transform;
         }
         
         /* Advantage node animations */
@@ -1003,8 +1003,8 @@ export default function TrustSection() {
         }
         
         @keyframes fade-in {
-          from { opacity: 0; traninfoorm: scale(0.95); }
-          to { opacity: 1; traninfoorm: scale(1); }
+          from { opacity: 0; transform: scale(0.95); }
+          to { opacity: 1; transform: scale(1); }
         }
         
         .animate-fade-in {
@@ -1135,7 +1135,7 @@ export default function TrustSection() {
                     borderColor: i % 3 === 0 ? 'rgba(16, 185, 129, 0.4)' : 
                                 i % 3 === 1 ? 'rgba(59, 130, 246, 0.4)' : 
                                 'rgba(236, 72, 153, 0.4)',
-                    traninfoorm: `rotate(${Math.random() * 360}deg)`
+                    transform: `rotate(${Math.random() * 360}deg)`
                   }}
                 />
               ))}
@@ -1162,7 +1162,7 @@ export default function TrustSection() {
               </div>
               
               {/* Orbiting elements */}
-              <div className="absolute top-1/2 left-1/2 traninfoorm -translate-x-1/2 -translate-y-1/2 w-64 h-64">
+              <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64">
                 <div className="orbit-container">
                   <div className="orbit-circle" style={{ width: '100%', height: '100%', animationDuration: '20s' }}>
                     <div className="orbit-dot bg-emerald-500"></div>
@@ -1192,7 +1192,7 @@ export default function TrustSection() {
                   <div className="neon-card group from-emerald-900/10 to-emerald-800/5 hover:from-emerald-900/20 hover:to-emerald-800/10" style={{ '--border-color': 'rgba(16, 185, 129, 0.3)' }}>
                     <div className="neon-card-glow bg-emerald-500/20"></div>
                     <div className="relative z-10 flex items-start space-x-4">
-                      <div className="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-traninfoorm duration-300">
+                      <div className="w-10 h-10 rounded-xl bg-emerald-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-transform duration-300">
                         <Brain className="w-5 h-5 text-emerald-400" />
                       </div>
                       <div>
@@ -1205,7 +1205,7 @@ export default function TrustSection() {
                   <div className="neon-card group from-blue-900/10 to-blue-800/5 hover:from-blue-900/20 hover:to-blue-800/10" style={{ '--border-color': 'rgba(59, 130, 246, 0.3)' }}>
                     <div className="neon-card-glow bg-blue-500/20"></div>
                     <div className="relative z-10 flex items-start space-x-4">
-                      <div className="w-10 h-10 rounded-xl bg-blue-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-traninfoorm duration-300">
+                      <div className="w-10 h-10 rounded-xl bg-blue-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-transform duration-300">
                         <LineChart className="w-5 h-5 text-blue-400" />
                       </div>
                       <div>
@@ -1218,7 +1218,7 @@ export default function TrustSection() {
                   <div className="neon-card group from-pink-900/10 to-pink-800/5 hover:from-pink-900/20 hover:to-pink-800/10" style={{ '--border-color': 'rgba(236, 72, 153, 0.3)' }}>
                     <div className="neon-card-glow bg-pink-500/20"></div>
                     <div className="relative z-10 flex items-start space-x-4">
-                      <div className="w-10 h-10 rounded-xl bg-pink-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-traninfoorm duration-300">
+                      <div className="w-10 h-10 rounded-xl bg-pink-500/20 flex items-center justify-center mt-0.5 group-hover:scale-110 transition-transform duration-300">
                         <Rocket className="w-5 h-5 text-pink-400" />
                       </div>
                       <div>
@@ -1267,7 +1267,7 @@ export default function TrustSection() {
                 onClick={() => setIinfoormOpen(false)}
                 className="absolute top-4 right-4 w-8 h-8 rounded-lg bg-white/5 border border-white/10 flex items-center justify-center text-gray-400 hover:text-white hover:bg-emerald-500/20 hover:border-emerald-500/30 transition-all duration-300 group z-20"
               >
-                <X className="w-4 h-4 group-hover:rotate-90 transition-traninfoorm duration-300" />
+                <X className="w-4 h-4 group-hover:rotate-90 transition-transform duration-300" />
               </button>
               
               <div className="p-8 md:p-10 relative z-10">
@@ -1295,7 +1295,7 @@ export default function TrustSection() {
                 <form onSubmit={handleSubmit} className="space-y-6">
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
                     <div className="relative">
-                      <div className="relative group traninfoorm transition-all duration-300">
+                      <div className="relative group transform transition-all duration-300">
                         <div className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-white transition-colors duration-300">
                           <User className="w-5 h-5" />
                         </div>
@@ -1316,7 +1316,7 @@ export default function TrustSection() {
                     </div>
                     
                     <div className="relative">
-                      <div className="relative group traninfoorm transition-all duration-300">
+                      <div className="relative group transform transition-all duration-300">
                         <div className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-white transition-colors duration-300">
                           <Mail className="w-5 h-5" />
                         </div>
@@ -1337,7 +1337,7 @@ export default function TrustSection() {
                     </div>
                     
                     <div className="relative">
-                      <div className="relative group traninfoorm transition-all duration-300">
+                      <div className="relative group transform transition-all duration-300">
                         <div className="absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 group-focus-within:text-white transition-colors duration-300">
                           <Building className="w-5 h-5" />
                         </div>
@@ -1355,7 +1355,7 @@ export default function TrustSection() {
                     
                     <div className="feature-card-container">
                       <div className="feature-card-glow bg-emerald-500/10 filter blur-md"></div>
-                      <div className="relative group traninfoorm transition-all duration-300">
+                      <div className="relative group transform transition-all duration-300">
                         <div className="absolute left-3 top-1/2 -translate-y-1/2 text-emerald-400 group-focus-within:text-white transition-colors duration-300">
                           <Phone className="w-5 h-5" />
                         </div>
@@ -1383,7 +1383,7 @@ export default function TrustSection() {
                                   </div>
                                 );
                               })()}
-                              <svg className={`w-4 h-4 text-gray-400 transition-traninfoorm duration-300 ${isCountryDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                              <svg className={`w-4 h-4 text-gray-400 transition-transform duration-300 ${isCountryDropdownOpen ? 'rotate-180' : ''}`} fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7"></path>
                               </svg>
                             </button>
@@ -1402,7 +1402,7 @@ export default function TrustSection() {
                                       className="w-full bg-emerald-900/30 border border-emerald-500/40 rounded-lg py-2 pl-8 pr-3 text-sm text-white placeholder-gray-500 focus:outline-none focus:ring-1 focus:ring-emerald-500/50 focus:border-emerald-500/50 transition-all duration-300"
                                       onClick={(e) => e.stopPropagation()}
                                     />
-                                    <svg className="absolute left-2 top-1/2 traninfoorm -translate-y-1/2 w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                    <svg className="absolute left-2 top-1/2 transform -translate-y-1/2 w-4 h-4 text-emerald-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
                                     </svg>
                                   </div>
@@ -1459,7 +1459,7 @@ export default function TrustSection() {
                   
                   <div className="feature-card-container">
                     <div className="feature-card-glow bg-gradient-to-r from-emerald-500/10 via-blue-500/10 to-pink-500/10 filter blur-md"></div>
-                    <div className="relative group traninfoorm transition-all duration-300">
+                    <div className="relative group transform transition-all duration-300">
                       <textarea
                         name="message"
                         value={formData.message}
@@ -1489,7 +1489,7 @@ export default function TrustSection() {
                         htmlFor="privacy" 
                         className="flex items-center justify-center w-5 h-5 border border-emerald-500/40 rounded bg-emerald-900/20 cursor-pointer peer-checked:bg-emerald-500/30 transition-all duration-300 group-hover/checkbox:border-emerald-500/60"
                       >
-                        <div className="w-3 h-3 rounded-sm bg-gradient-to-r from-emerald-400 via-blue-400 to-pink-400 opacity-0 peer-checked:opacity-100 transition-opacity duration-300 traninfoorm scale-0 peer-checked:scale-100"></div>
+                        <div className="w-3 h-3 rounded-sm bg-gradient-to-r from-emerald-400 via-blue-400 to-pink-400 opacity-0 peer-checked:opacity-100 transition-opacity duration-300 transform scale-0 peer-checked:scale-100"></div>
                       </label>
                     </div>
                     <label htmlFor="privacy" className="cursor-pointer">
@@ -1509,14 +1509,14 @@ export default function TrustSection() {
                       {/* Animated hover effect */}
                       <div className="absolute inset-0 w-full h-full opacity-0 group-hover:opacity-100 transition-opacity duration-500">
                         <div className="absolute inset-0 bg-gradient-to-r from-emerald-500/20 via-blue-500/20 to-pink-500/20"></div>
-                        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent traninfoorm translate-x-[-100%] group-hover:translate-x-[100%] transition-traninfoorm duration-1000"></div>
-                        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent traninfoorm translate-x-[100%] group-hover:translate-x-[-100%] transition-traninfoorm duration-1000"></div>
+                        <div className="absolute top-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent transform translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
+                        <div className="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/50 to-transparent transform translate-x-[100%] group-hover:translate-x-[-100%] transition-transform duration-1000"></div>
                       </div>
                       
                       {/* Button text with enhanced animation */}
                       <span className="relative z-10 flex items-center justify-center font-semibold tracking-wide">
                         <span className="mr-2">Schedule Consultation</span>
-                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-traninfoorm duration-500 ease-out" />
+                        <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-500 ease-out" />
                       </span>
                       
                       {/* Enhanced bottom highlight */}
@@ -1533,8 +1533,8 @@ export default function TrustSection() {
       {/* Additional animations for the form */}
       <style jsx global>{`
         @keyframes scan {
-          0% { traninfoorm: translateY(-100%); }
-          100% { traninfoorm: translateY(1000%); }
+          0% { transform: translateY(-100%); }
+          100% { transform: translateY(1000%); }
         }
         
         @keyframes width {
@@ -1549,8 +1549,8 @@ export default function TrustSection() {
         
         /* New animations for the enhanced form */
         @keyframes circuit-pulse {
-          0%, 100% { opacity: 0.6; traninfoorm: scale(1); }
-          50% { opacity: 1; traninfoorm: scale(1.2); }
+          0%, 100% { opacity: 0.6; transform: scale(1); }
+          50% { opacity: 1; transform: scale(1.2); }
         }
         
         @keyframes circuit-flow {
@@ -1559,25 +1559,25 @@ export default function TrustSection() {
         }
         
         @keyframes hexagon-pulse {
-          0%, 100% { traninfoorm: scale(1); opacity: 0.3; }
-          50% { traninfoorm: scale(1.2); opacity: 0.6; }
+          0%, 100% { transform: scale(1); opacity: 0.3; }
+          50% { transform: scale(1.2); opacity: 0.6; }
         }
         
         @keyframes orbit-rotate {
-          from { traninfoorm: rotate(0deg); }
-          to { traninfoorm: rotate(360deg); }
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
         }
         
         @keyframes particle-float {
-          0% { traninfoorm: translateY(0) translateX(0); opacity: 0; }
+          0% { transform: translateY(0) translateX(0); opacity: 0; }
           10% { opacity: 1; }
           90% { opacity: 1; }
-          100% { traninfoorm: translateY(-100px) translateX(100px); opacity: 0; }
+          100% { transform: translateY(-100px) translateX(100px); opacity: 0; }
         }
         
         @keyframes hologram-pulse {
-          0%, 100% { traninfoorm: scale(1); opacity: 0.3; }
-          50% { traninfoorm: scale(1.1); opacity: 0.5; }
+          0%, 100% { transform: scale(1); opacity: 0.3; }
+          50% { transform: scale(1.1); opacity: 0.5; }
         }
         
         @keyframes glitch-anim-1 {
@@ -1599,8 +1599,8 @@ export default function TrustSection() {
         }
         
         @keyframes fade-in {
-          0% { opacity: 0; traninfoorm: translateY(10px); }
-          100% { opacity: 1; traninfoorm: translateY(0); }
+          0% { opacity: 0; transform: translateY(10px); }
+          100% { opacity: 1; transform: translateY(0); }
         }
         
         @keyframes pulse-slow {
@@ -1614,8 +1614,8 @@ export default function TrustSection() {
         }
         
         @keyframes ping-slow {
-          0%, 100% { traninfoorm: scale(1); opacity: 1; }
-          50% { traninfoorm: scale(1.5); opacity: 0.5; }
+          0%, 100% { transform: scale(1); opacity: 1; }
+          50% { transform: scale(1.5); opacity: 0.5; }
         }
         
         /* Styling for the enhanced form elements */
@@ -1686,7 +1686,7 @@ export default function TrustSection() {
           border-radius: 50%;
           top: 0;
           left: 50%;
-          traninfoorm: translateX(-50%);
+          transform: translateX(-50%);
           filter: blur(1px);
         }
         
@@ -1791,7 +1791,7 @@ export default function TrustSection() {
         }
         
         .neon-card:hover {
-          traninfoorm: translateY(-5px);
+          transform: translateY(-5px);
           box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
         }
         
@@ -1820,7 +1820,7 @@ export default function TrustSection() {
           font-size: 0.75rem;
           font-weight: 600;
           letter-spacing: 1px;
-          text-traninfoorm: uppercase;
+          text-transform: uppercase;
         }
         
         .tech-specs {
@@ -1894,13 +1894,13 @@ export default function TrustSection() {
           position: relative;
           height: 100%;
           perspective: 1000px;
-          transition: traninfoorm 0.3s ease;
+          transition: transform 0.3s ease;
           margin-top: 20px;
           padding-top: 10px;
         }
         
         .feature-card-container:hover {
-          traninfoorm: translateY(-5px);
+          transform: translateY(-5px);
         }
         
         .feature-card-glow {
@@ -1976,10 +1976,10 @@ export default function TrustSection() {
         
         @keyframes rotate-slow {
           from {
-            traninfoorm: rotate(0deg);
+            transform: rotate(0deg);
           }
           to {
-            traninfoorm: rotate(360deg);
+            transform: rotate(360deg);
           }
         }
         

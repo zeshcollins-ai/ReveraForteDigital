@@ -21,7 +21,7 @@
 
 @keyframes particle-float {
   0% {
-    traninfoorm: translateY(0) translateX(0);
+    transform: translateY(0) translateX(0);
     opacity: 0;
   }
   10% {
@@ -31,7 +31,7 @@
     opacity: 1;
   }
   100% {
-    traninfoorm: translateY(-100px) translateX(100px);
+    transform: translateY(-100px) translateX(100px);
     opacity: 0;
   }
 }
@@ -53,11 +53,11 @@
 
 @keyframes hologram-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.3;
   }
   50% {
-    traninfoorm: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.5;
   }
 }
@@ -87,16 +87,16 @@
   border-radius: 50%;
   top: 0;
   left: 50%;
-  traninfoorm: translateX(-50%);
+  transform: translateX(-50%);
   filter: blur(1px);
 }
 
 @keyframes orbit-rotate {
   from {
-    traninfoorm: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    traninfoorm: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -219,10 +219,10 @@
 
 @keyframes data-flow {
   0% {
-    traninfoorm: translateY(-100%);
+    transform: translateY(-100%);
   }
   100% {
-    traninfoorm: translateY(100%);
+    transform: translateY(100%);
   }
 }
 
@@ -263,11 +263,11 @@
 
 @keyframes hexagon-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.3;
   }
   50% {
-    traninfoorm: scale(1.2);
+    transform: scale(1.2);
     opacity: 0.6;
   }
 }
@@ -287,7 +287,7 @@
 }
 
 .neon-card:hover {
-  traninfoorm: translateY(-5px);
+  transform: translateY(-5px);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 }
 
@@ -316,7 +316,7 @@
   font-size: 0.75rem;
   font-weight: 600;
   letter-spacing: 1px;
-  text-traninfoorm: uppercase;
+  text-transform: uppercase;
 }
 
 .tech-specs {
@@ -421,7 +421,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  traninfoorm: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
   border: 1px solid rgba(139, 92, 246, 0.3);
@@ -439,33 +439,33 @@
 
 @keyframes hologram-float {
   0%, 100% {
-    traninfoorm: translateY(0);
+    transform: translateY(0);
     filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.7));
   }
   50% {
-    traninfoorm: translateY(-20px);
+    transform: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(139, 92, 246, 0.9));
   }
 }
 
 @keyframes hologram-float-cyan {
   0%, 100% {
-    traninfoorm: translateY(0);
+    transform: translateY(0);
     filter: drop-shadow(0 0 5px rgba(34, 211, 238, 0.7));
   }
   50% {
-    traninfoorm: translateY(-20px);
+    transform: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(34, 211, 238, 0.9));
   }
 }
 
 @keyframes hologram-float-gradient {
   0%, 100% {
-    traninfoorm: translateY(0);
+    transform: translateY(0);
     filter: drop-shadow(0 0 5px rgba(139, 92, 246, 0.7));
   }
   50% {
-    traninfoorm: translateY(-20px);
+    transform: translateY(-20px);
     filter: drop-shadow(0 0 15px rgba(34, 211, 238, 0.9));
   }
 }
@@ -517,7 +517,7 @@
   border-radius: 50%;
   background: rgba(139, 92, 246, 0.7);
   top: 50%;
-  traninfoorm: translateY(-50%);
+  transform: translateY(-50%);
   animation: circuit-pulse 4s infinite;
 }
 
@@ -534,11 +534,11 @@
 
 @keyframes circuit-pulse {
   0%, 100% {
-    traninfoorm: translateY(-50%) scale(1);
+    transform: translateY(-50%) scale(1);
     box-shadow: 0 0 0 rgba(139, 92, 246, 0.7);
   }
   50% {
-    traninfoorm: translateY(-50%) scale(1.5);
+    transform: translateY(-50%) scale(1.5);
     box-shadow: 0 0 10px rgba(139, 92, 246, 0.9);
   }
 }
@@ -563,14 +563,14 @@
   position: relative;
   height: 100%;
   perspective: 1000px;
-  transition: traninfoorm 0.3s ease;
+  transition: transform 0.3s ease;
   /* Add top margin to accommodate the tech badge */
   margin-top: 20px;
   padding-top: 10px;
 }
 
 .feature-card-container:hover {
-  traninfoorm: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .feature-card-glow {
@@ -651,7 +651,7 @@
   position: absolute;
   top: 0;
   left: 50%;
-  traninfoorm: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
   z-index: 2;
 }
 
@@ -663,13 +663,13 @@
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   opacity: 0;
-  traninfoorm: translateY(10px);
+  transform: translateY(10px);
   transition: all 0.3s ease;
 }
 
 .feature-card-container:hover .tech-badge {
   opacity: 1;
-  traninfoorm: translateY(0);
+  transform: translateY(0);
 }
 
 .tech-badge-text {
@@ -709,7 +709,7 @@
 }
 
 .feature-card:hover .feature-icon {
-  traninfoorm: scale(1.1);
+  transform: scale(1.1);
   filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.8));
 }
 
@@ -726,11 +726,11 @@
 
 @keyframes feature-icon-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.1;
   }
   50% {
-    traninfoorm: scale(1.2);
+    transform: scale(1.2);
     opacity: 0.3;
   }
 }
@@ -871,7 +871,7 @@
 }
 
 .capability-card:hover {
-  traninfoorm: translateY(-5px);
+  transform: translateY(-5px);
   border-color: rgba(99, 102, 241, 0.5);
   box-shadow: 0 0 30px rgba(99, 102, 241, 0.1);
 }
@@ -904,11 +904,11 @@
 
 @keyframes capability-ring-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.4;
   }
   50% {
-    traninfoorm: scale(1.1);
+    transform: scale(1.1);
     opacity: 0.7;
   }
 }
@@ -942,7 +942,7 @@
 .capability-percentage-circle {
   width: 100%;
   height: 100%;
-  traninfoorm: rotate(-90deg);
+  transform: rotate(-90deg);
 }
 
 .capability-percentage-bg {
@@ -972,7 +972,7 @@
   position: absolute;
   top: 50%;
   left: 50%;
-  traninfoorm: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1199,7 +1199,7 @@
 .tech-category-panel:hover {
   border-color: rgba(99, 102, 241, 0.6);
   box-shadow: 0 0 20px rgba(99, 102, 241, 0.1);
-  traninfoorm: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 /* Category header */
@@ -1495,10 +1495,10 @@
 
 @keyframes vision-orbit-rotate {
   0% {
-    traninfoorm: rotate(0deg);
+    transform: rotate(0deg);
   }
   100% {
-    traninfoorm: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -1510,7 +1510,7 @@
   border-radius: 50%;
   top: 0;
   left: 50%;
-  traninfoorm: translateX(-50%);
+  transform: translateX(-50%);
   box-shadow: 0 0 10px rgba(99, 102, 241, 0.5);
 }
 
@@ -1624,11 +1624,11 @@
 
 @keyframes vision-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.6;
   }
   50% {
-    traninfoorm: scale(1.5);
+    transform: scale(1.5);
     opacity: 0.3;
   }
 }
@@ -1677,11 +1677,11 @@
 
 @keyframes values-icon-pulse {
   0%, 100% {
-    traninfoorm: scale(1);
+    transform: scale(1);
     opacity: 0.3;
   }
   50% {
-    traninfoorm: scale(1.3);
+    transform: scale(1.3);
     opacity: 0.1;
   }
 }
@@ -1737,7 +1737,7 @@
 }
 
 .value-card.active {
-  traninfoorm: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .value-card-inner {
